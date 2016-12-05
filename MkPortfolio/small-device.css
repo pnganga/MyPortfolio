@@ -1,0 +1,35 @@
+#coverPhoto{
+	background-image: url(images/iphonebg.png);
+	background-color: black;
+	min-height: 480px;
+	/*background-size:100% auto;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*width: 1700px;*/
+}
+#bookme{
+	display: none;
+}
+#logo{
+	display: none;
+}
+/*li{
+	
+	float: right;
+}*/
+.navtext{
+	color: rgb(0, 214, 145);
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: 'Denk One', sans-serif;
+}
+}
+#navs{
+	/*min-height: 50px;*/
+	/*position: absolute;*/
+	right: 160px;
+	margin-left: 900px;
+	position: fixed;
+	
+
+}

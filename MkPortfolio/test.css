@@ -1,0 +1,47 @@
+#below{
+	background-image: url(images/MKzBG3.png);
+	min-height: 900px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+
+}
+#logo{
+	
+
+	background-image: url(images/MKzLogo.png);
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	margin-top: 50px;
+	position: relative;
+}
+#navs{
+	position: absolute;
+	right: 30%;
+	/*margin-left: 390px;*/
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+	#below{
+		background-image: url(images/iphonebg.png);
+		height: auto;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: absolute;
+		
+
+
+	}
+	#logo{
+		display: none;
+		
+		
+	
+	}	
+		
+}	
